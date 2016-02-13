@@ -1,0 +1,19 @@
+{
+  "name": "trying-animations",
+  "version": "1.0.0",
+  "description": "just me trying out animations.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/irenerobb72/trying-animations.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/irenerobb72/trying-animations/issues"
+  },
+  "homepage": "https://github.com/irenerobb72/trying-animations#readme"
+}
