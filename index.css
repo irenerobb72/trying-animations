@@ -1,16 +1,29 @@
-img {
-  animation-duration: 3s;
-  animation-name: slidein;
-}
 
-@keyframes slidein {
-  from {
-    margin-left: 100%;
-    width: 300%;
+@keyframes sunrise {
+  /*@ means a rule that has the identifier next to it*/
+  0% {
+    bottom: 0;
+    left: 340px;
+    background: #f00;
   }
-
-  to {
-    margin-left: 0%;
-    width: 100%;
+/*sun at bottom, right and red*/
+  33% {
+    bottom: 340px;
+    left: 340px;
+    background: #ffd630;
   }
+/*sun rises and changes color */
+  66% {
+    bottom: 340px;
+    left: 40px;
+    background: #ffd630;
+  }
+/*sun moves across sky and stays same color*/
+  100% {
+    bottom: 0;
+    left: 40px;
+    background: #f00;
+    /*sun sets and changes back to red*/
+  }
+/*you can replace the percentages with from and to*/
 }
