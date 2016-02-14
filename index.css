@@ -1,29 +1,18 @@
+@-webkit-keyframes swinging{
+    0%{-webkit-transform: rotate(10deg);}
+    50%{-webkit-transform: rotate(-5deg)}
+    100%{-webkit-transform: rotate(10deg);}
+}
 
-@keyframes sunrise {
-  /*@ means a rule that has the identifier next to it*/
-  0% {
-    bottom: 0;
-    left: 340px;
-    background: #f00;
-  }
-/*sun at bottom, right and red*/
-  33% {
-    bottom: 340px;
-    left: 340px;
-    background: #ffd630;
-  }
-/*sun rises and changes color */
-  66% {
-    bottom: 340px;
-    left: 40px;
-    background: #ffd630;
-  }
-/*sun moves across sky and stays same color*/
-  100% {
-    bottom: 0;
-    left: 40px;
-    background: #f00;
-    /*sun sets and changes back to red*/
-  }
-/*you can replace the percentages with from and to*/
+@keyframes swinging{
+    0%{transform: rotate(10deg);}
+    50%{transform: rotate(-5deg)}
+    100%{transform: rotate(10deg);}
+}
+
+#armOne{
+    -webkit-transform-origin: 50% 0;
+    transform-origin: 50% 0;
+    -webkit-animation: swinging 3.5s ease-in-out forwards infinite;
+    animation: swinging 3.5s ease-in-out forwards infinite;
 }
